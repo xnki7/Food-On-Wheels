@@ -13,7 +13,8 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="leftSide" id={openLinks ? "open" : "close"}>
-        <img src={Logo} />
+        {/* eslint-disable-next-line */}
+        <img src={Logo} alt=""/>
         <h1>Food-on-Wheels</h1>
         <div className="hiddenLinks">
           <Link to="/"> Home </Link>
